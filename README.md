@@ -24,3 +24,9 @@ Make sure you have docker installed and that the Docker daemon is running.
 
 ### Restrictions
 Requires python3+ and pip3+
+
+### Discussions
+Country code is hard-coded as 'TUR'.  
+This is because of the inconsistency of the API that is being consulted.  
+It returns the total number of cases on a specific date for Turkey, while it does the new case number on a specific date for ITA or ESP, for example.  
+The idea was to make the country generic. Whenever a consistent API is found to get the same type of data for any country, it will be the next version.
