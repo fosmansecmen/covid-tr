@@ -5,7 +5,7 @@ A simple machine-learning trial with the Covid-19 data for Turkey.
 
 It gathers the data from https://covid-api.com/api.
 
-The last 15 days' data is used to guess the next day's case number.
+The last 20 days' data is used to guess the next day's case number.
 
 ## Running on a Virtualenv (recommended)
 1. First create a virtualenv
