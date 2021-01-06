@@ -11,7 +11,7 @@ The last 20 days' data is used to guess the next day's case number.
 1. First create a virtualenv
     `python3 -m venv env`
 2. Activate it
-    `source env/Scripts/active`
+    `source env/Scripts/activate`
 3. Install required packages
     `pip3 install -r requirements.txt`
 4. Run the program
